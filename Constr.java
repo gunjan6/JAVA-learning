@@ -1,5 +1,6 @@
 public class Constr {
    public static void main(String[] args) {
+      //Defining constructor 
     Student s1 = new Student();
         s1.name = "Tony";
         s1.roll = 5;
@@ -15,13 +16,16 @@ class Student{
     int roll;
     String password;
 
+   //calling constructor
     Student(Student s1){
         this.name = s1.name; 
         this.roll = s1.roll;        
     }
+   
     Student(String Name){
         name = Name;    
     }
+   
     Student(){
         System.out.println("Constructor is called.....");
     }
