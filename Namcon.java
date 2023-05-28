@@ -1,4 +1,4 @@
-//naming convention 
+
 public class Namcon {
     
 }
