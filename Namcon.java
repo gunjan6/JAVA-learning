@@ -1,4 +1,4 @@
-//naming convention 
+//naming convention with JAVA
 
 public class Namcon {
     
